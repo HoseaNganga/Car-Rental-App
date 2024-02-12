@@ -1,0 +1,91 @@
+.bookTrip {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.bookTripDescription {
+  flex: 1;
+}
+
+.bookTripDescription h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: var(--PRIMARYCOLOR);
+}
+
+.bookTripDescription .boldEl {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.boldEl span {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.bookTripDescription p {
+  margin-bottom: 1rem;
+  color: var(--PRIMARYCOLOR);
+}
+
+.bookTripLinks {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.bookTripLinks a {
+  text-decoration: none;
+  color: var(--BACKGROUNDCOLOR);
+  font-family: inherit;
+}
+
+.bookTripLinks div {
+  width: 150px;
+  height: auto;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+
+.bookride {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.bookride:hover {
+  background-color: var(--PRIMARYCOLOR);
+}
+
+.learnmore {
+  background-color: var(--PRIMARYCOLOR);
+}
+
+.learnmore:hover {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.bookTripImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1.5;
+}
+
+.bookTripImg img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 998px) {
+  .bookTrip {
+    display: grid;
+  }
+}

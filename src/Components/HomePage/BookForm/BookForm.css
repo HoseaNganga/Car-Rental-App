@@ -1,0 +1,85 @@
+#book {
+  margin-bottom: 10rem;
+  box-shadow: 0px 4px 4px var(--PRIMARYCOLOR);
+  padding: 1rem;
+  width: 100%;
+}
+svg {
+  transform: translateY(0.3rem);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.flexContainer div {
+  width: 400px;
+  display: grid;
+}
+
+.flexContainer div label {
+  margin-bottom: 1rem;
+}
+
+.flexContainer div input,
+.flexContainer div select {
+  padding: 0.6rem 1.5rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.425);
+  outline: none;
+}
+
+.btn button {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn button:hover {
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+@media screen and (max-width: 998px) {
+  .flexContainer div {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .flexContainer label {
+    display: grid;
+  }
+  .flexContainer {
+    gap: 2rem;
+  }
+  .flexContainer div {
+    width: 100%;
+  }
+
+  .flexContainer div input,
+  .flexContainer div select {
+    padding: 0.6rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.425);
+    outline: none;
+  }
+
+  .btn button {
+    padding: 1rem;
+  }
+}

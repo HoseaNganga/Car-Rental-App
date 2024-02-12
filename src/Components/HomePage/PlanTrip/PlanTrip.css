@@ -1,0 +1,48 @@
+.planTrip {
+  margin-bottom: 10rem;
+}
+
+.planTrip h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.planTrip .boldStyle {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.flexIcons {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.flexIcons div {
+  display: grid;
+  place-items: center;
+  width: 300px;
+  /* word-break: break-all; */
+}
+
+.flexIcons h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 710px) {
+  .flexIcons {
+    display: grid;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .flexIcons div {
+    width: 200px;
+  }
+}

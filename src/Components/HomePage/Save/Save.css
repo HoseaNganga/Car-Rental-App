@@ -1,0 +1,28 @@
+.saveDiv {
+  display: grid;
+  margin-bottom: 10rem;
+}
+
+.saveDescription {
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--BACKGROUNDCOLOR);
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+.saveDescription h2 {
+  font-size: 2.8rem;
+}
+
+.saveDescription span {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.saveImageContainer {
+  height: 400px;
+  background-image: url(../../../ImageAssests/chooseUs/main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

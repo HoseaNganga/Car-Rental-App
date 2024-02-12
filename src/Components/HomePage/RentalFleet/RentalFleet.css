@@ -1,0 +1,142 @@
+.rentalFleet {
+  margin-bottom: 2rem;
+}
+
+.rentalFleet h3,
+p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rentalFleet h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.rentalFleet .styleBold {
+  font-size: 2.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.btnDiv {
+  margin-bottom: 1rem;
+}
+.btnDiv button {
+  width: 160px;
+  background-color: lightgray;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.flexFleetContainer .imageContainer {
+  flex: 1.5;
+}
+/* Table header */
+thead {
+  color: var(--BACKGROUNDCOLOR);
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+  border: 1px solid var(--PRIMARYCOLOR);
+}
+
+/* First row, spanning two columns */
+td[colspan="2"] {
+  text-align: center;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.flexFleetContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tableFlex {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.flexFleetContainer button a {
+  color: var(--PRIMARYCOLOR);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.flexFleetContainer button a:hover {
+  color: var(--BACKGROUNDCOLOR);
+  text-decoration: none;
+}
+
+.flexFleetContainer button {
+  width: 100%;
+  padding: 0.7rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  transition: 0.3s ease-in-out;
+}
+
+.flexFleetContainer button:hover {
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--BACKGROUNDCOLOR);
+}
+
+@media screen and (max-width: 1150px) {
+  .flexFleetContainer {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .btnDiv button {
+    width: 100%;
+  }
+  .tableFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tableFlex .imageContainer {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flexFleetContainer {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .btnDiv button {
+    width: 100%;
+  }
+  .tableFlex {
+    display: grid;
+    place-items: center;
+  }
+}
