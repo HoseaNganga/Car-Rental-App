@@ -1,13 +1,13 @@
 .bookTrip {
   display: flex;
-  justify-content: flex-start;
   gap: 1rem;
-  flex-wrap: wrap;
   margin-bottom: 10rem;
+  width: 100%;
+  box-sizing: border-box;
 }
-
 .bookTripDescription {
-  flex: 1;
+  flex: 1.5;
+  width: 100%;
 }
 
 .bookTripDescription h3 {
@@ -17,8 +17,12 @@
   color: var(--PRIMARYCOLOR);
 }
 
+.bookTripDescription h5 {
+  font-weight: 100;
+}
+
 .bookTripDescription .boldEl {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   margin-bottom: 1rem;
 }
@@ -46,12 +50,16 @@
 }
 
 .bookTripLinks div {
-  width: 150px;
+  width: 180px;
   height: auto;
   padding: 1rem;
   display: grid;
   place-items: center;
   border-radius: 10px;
+}
+
+.bookTripLinks svg {
+  transform: translateY(0.2rem);
 }
 
 .bookride {
@@ -87,5 +95,17 @@
 @media screen and (max-width: 998px) {
   .bookTrip {
     display: grid;
+    width: 100%;
+  }
+
+  .bookTripImg {
+    flex: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .bookTripLinks {
+    display: grid;
+    width: 100%;
+    justify-content: center;
   }
 }

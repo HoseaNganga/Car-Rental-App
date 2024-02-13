@@ -1,0 +1,100 @@
+.chooseUsDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.chooseUsHeader {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.chooseUsHeader h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.chooseUsHeader .styleEl {
+  font-weight: bolder;
+  color: var(--PRIMARYCOLOR);
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.chooseUsHeader button {
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.chooseUsHeader a {
+  text-decoration: none;
+  color: var(--PRIMARYCOLOR);
+}
+
+.chooseUsHeader a:hover {
+  color: var(--BACKGROUNDCOLOR);
+}
+
+.chooseUsHeader button:hover {
+  background-color: var(--PRIMARYCOLOR);
+}
+
+.chooseUsHeader svg {
+  transform: translateY(0.2rem);
+}
+
+.chooseUsBody {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.ChooseUsflexDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .chooseUsDiv {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+  }
+  .chooseUsHeader {
+    display: grid;
+    place-items: center;
+  }
+
+  .chooseUsHeader .styleEl {
+    text-align: center;
+  }
+
+  .chooseUsBody {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .ChooseUsflexDiv {
+    display: grid;
+    place-items: center;
+  }
+
+  .chooseUsHeader h2 {
+    text-align: center;
+  }
+
+  .ChooseUsflexDiv h3 {
+    text-align: center;
+  }
+}

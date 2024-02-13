@@ -1,0 +1,34 @@
+.downloadContainer {
+  margin-bottom: 5rem;
+  min-height: 400px;
+  position: relative;
+  background-color: rgba(255, 228, 196, 0.63);
+  min-height: 500px;
+}
+.downloadHeader {
+  display: grid;
+  place-items: center;
+  color: var(--PRIMARYCOLOR);
+}
+
+.downloadHeader h3 {
+  font-size: 2.5rem;
+}
+
+.downloadHeader p {
+  font-size: var(--FONTSIZE);
+}
+
+.downloadImg {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.downloadImg img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,7 +1,6 @@
 #book {
   margin-bottom: 10rem;
   box-shadow: 0px 4px 4px var(--PRIMARYCOLOR);
-  padding: 1rem;
   width: 100%;
 }
 svg {
@@ -15,14 +14,14 @@ h2 {
 .flexContainer {
   display: flex;
   justify-content: space-between;
-  gap: 0.3rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   padding: 1rem;
 }
 
 .flexContainer div {
-  width: 400px;
   display: grid;
+  width: 400px;
 }
 
 .flexContainer div label {
@@ -56,7 +55,7 @@ h2 {
 
 @media screen and (max-width: 998px) {
   .flexContainer div {
-    width: 300px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 710px) {
@@ -66,17 +65,14 @@ h2 {
   .flexContainer {
     gap: 2rem;
   }
-  .flexContainer div {
-    width: 100%;
-  }
 
   .flexContainer div input,
   .flexContainer div select {
-    padding: 0.6rem;
     font-family: inherit;
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.425);
     outline: none;
+    width: 100%;
   }
 
   .btn button {

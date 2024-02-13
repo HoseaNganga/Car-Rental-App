@@ -1,0 +1,88 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  width: 250px;
+  height: 250px;
+}
+
+.footer h3 {
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--PRIMARYCOLOR);
+}
+
+.subscribeForm {
+  display: grid;
+  gap: 1rem;
+}
+
+.subscribeForm input,
+.subscribeForm button {
+  padding: 0.5rem 1rem;
+}
+
+.subscribeForm button {
+  border: none;
+  outline: none;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.subscribeForm button:hover {
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--BACKGROUNDCOLOR);
+}
+
+.footer a:hover,
+.footer p:hover {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+  cursor: pointer;
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: #19dcea;
+  }
+  100% {
+    color: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    color: #19dcea;
+  }
+  100% {
+    color: #b22cff;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .footer {
+    display: grid;
+    place-content: center;
+  }
+
+  .footer div {
+    width: auto;
+    height: auto;
+  }
+  .subscribeForm input,
+  .subscribeForm button {
+    width: 100%;
+  }
+}
