@@ -1,7 +1,7 @@
 .bookTrip {
   display: flex;
   gap: 1rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   width: 100%;
   box-sizing: border-box;
 }

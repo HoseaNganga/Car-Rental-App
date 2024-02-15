@@ -43,7 +43,7 @@ h4 {
 }
 .flexHomeTestimonialImg {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .testimonialDescription {
@@ -65,5 +65,15 @@ h4 {
 @media screen and (max-width: 768px) {
   .geto {
     display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .homeTestimonialImg {
+    width: 50px;
+    height: 50px;
+  }
+  .testimonialDescription {
+    transform: translateY(0rem);
   }
 }

@@ -1,0 +1,90 @@
+.backgroundContainer {
+  position: relative;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
+.backgroundContainer h2 {
+  position: relative;
+}
+
+.backgroundContainer::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url("../../ImageAssests/about/heroes-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.backgroundContainerHeader {
+  position: relative;
+}
+
+.vehiclesContainer {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 8rem;
+}
+
+.vehicleBox {
+  width: 300px;
+  min-height: 500px;
+  box-shadow: 0px 5px 5px var(--PRIMARYCOLOR);
+}
+
+.vehicleImage {
+  width: 100%;
+}
+
+.vehicleBox img {
+  width: 100%;
+  height: 250px;
+}
+
+.vehicleDescription {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.vehicleDescription div {
+  display: grid;
+}
+
+.styleRent {
+  font-weight: bolder;
+  transform: translateY(-1rem);
+}
+
+.coverBtn {
+  padding: 1rem;
+}
+.vehicleBookBtn {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.vehicleBookBtn:hover {
+  background-color: violet;
+}
+
+.vehicleBookBtn a {
+  text-decoration: none;
+  color: var(--PRIMARYCOLOR);
+  font-size: 1.1rem;
+  transition: 0.3s ease-in-out;
+}

@@ -44,3 +44,32 @@ button {
   cursor: pointer;
   font-family: inherit;
 }
+
+.innerDivHeader {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+.flexInnerDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* ::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+} */

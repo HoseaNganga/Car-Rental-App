@@ -1,0 +1,107 @@
+.displayForm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+.styleInnerDiv {
+  box-shadow: 0px 5px 5px black;
+  background-color: white;
+  color: black;
+  max-width: 600px;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.innerDivHeader {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+.flexInnerDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.flexInnerDiv p {
+  margin: 0;
+}
+
+.flexInnerDiv button {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.innerDivBody {
+  margin-bottom: 1rem;
+}
+
+.flexOverlay {
+  padding: 1rem;
+}
+
+.overlayForm h3 {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.overlayForm div {
+  display: grid;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.overlayForm input {
+  background-color: lightgray;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.overlayForm button {
+  padding: 1rem;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  color: var(--BACKGROUNDCOLOR);
+  transition: 0.3s ease-in-out;
+}
+.overlayForm button:hover {
+  background-color: var(--PRIMARYCOLOR);
+}
+
+.styleHouseH3 {
+  color: var(--BACKGROUNDCOLOR);
+  background-color: green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  gap: 0.5rem;
+}
+.h3Result {
+  color: var(--BACKGROUNDCOLOR);
+  display: grid;
+}
+.h3ResultBtn {
+  width: 35px;
+  height: 35px;
+  color: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+}

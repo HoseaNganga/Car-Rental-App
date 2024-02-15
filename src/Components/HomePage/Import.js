@@ -1,0 +1,12 @@
+export { default as BookForm } from "./BookForm/BookForm";
+export { default as BookRide } from "./BookRide/BookRide";
+export { default as ChooseUs } from "./ChooseUs/ChooseUs";
+export { default as DownloadApp } from "./DownloadApp/DownloadApp";
+export { default as Faq } from "./Faq/Faq";
+export { default as Footer } from "./Footer/Footer";
+export { default as HomeTestimonials } from "./HomeTestimonials/HomeTestimonials";
+export { default as NavBar } from "./NavBar/NavBar";
+export { default as PlanTrip } from "./PlanTrip/PlanTrip";
+export { default as RentalFleet } from "./RentalFleet/RentalFleet";
+export { default as Save } from "./Save/Save";
+export { default as BookCarFunctionality } from "./BookCarFunctionality/BookCarFunctionality";

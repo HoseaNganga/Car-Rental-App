@@ -1,0 +1,73 @@
+.contactPageBody {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.contactPageBody p {
+  margin: 0;
+}
+
+.contactPageDescription {
+  flex: 1;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.contactPageDescription a {
+  text-decoration: none;
+  color: var(--PRIMARYCOLOR);
+}
+
+.contactPageDescription a:hover {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.contactPageDescription h2 {
+  text-align: center;
+}
+
+.contactPageForm {
+  flex: 1;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contactPageForm div {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contactPageForm svg {
+  transform: translateY(-0.1rem);
+}
+
+.contactPageForm input,
+.contactPageForm textarea {
+  padding: 1rem;
+  background-color: lightgrey;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.contactPageForm button {
+  padding: 1rem;
+  font-size: 1.4rem;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  border: none;
+  outline: none;
+  color: var(--BACKGROUNDCOLOR);
+}
+
+.contactPageForm button svg {
+  transform: translateY(0.2rem);
+  margin-inline: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+  .contactPageBody {
+    display: grid;
+  }
+}
