@@ -99,6 +99,10 @@ const handleClick = () => {
       <button class="inputReserve">Reserve Now</button>
     </div>
   </form>`;
+    const FormEl = innerDiv.querySelector(`.overlayForm`);
+    FormEl.addEventListener("submit", (e) => {
+      e.preventDefault();
+    });
     newDiv.appendChild(innerDiv);
     bookForm.appendChild(newDiv);
     const exitBtn = newDiv.querySelector(`.exitBtn`);
