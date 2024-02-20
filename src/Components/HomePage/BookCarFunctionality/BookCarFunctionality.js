@@ -28,7 +28,7 @@ const handleClick = () => {
     innerDiv.innerHTML = `
       <div class="innerDivHeader">
       <div class="flexInnerDiv">
-        <h2>COMPLETE RESERVATION</h2>
+        <h2>Complete Booking</h2>
         <button class="exitBtn">X</button>
       </div>
       <p>

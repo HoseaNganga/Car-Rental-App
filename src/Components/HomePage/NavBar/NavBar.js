@@ -6,10 +6,9 @@ import "./NavBar.css";
 const NavBar = () => {
   const handleHamburger = () => {
     const hamburger = document.querySelector(`.hamburger`);
-    console.log(hamburger);
     hamburger.classList.toggle("is-active");
-    const ulLinksEl = document.querySelector(`.links`);
-    ulLinksEl.classList.toggle("is-active");
+    const holdLinksContainer = document.querySelector(`.holdLinksRegister`);
+    holdLinksContainer.classList.toggle("is-active");
   };
 
   return (
@@ -17,29 +16,35 @@ const NavBar = () => {
       <div className="logoImg">
         <img src={logo} alt="car rental logo" />
       </div>
-      <ul className="links">
-        <li className="linkItem">
-          <Link to={"/"}>Home</Link>
-        </li>
-        <li className="linkItem">
-          <Link to={"/about"}>About</Link>
-        </li>
-        <li className="linkItem">
-          <Link to={"/vehiclemodels"}>Vehicle Models</Link>
-        </li>
-        <li className="linkItem">
-          <Link to={"/testimonials"}>Testimonials</Link>
-        </li>
-        <li className="linkItem">
-          <Link to={"/team"}>Our Team</Link>
-        </li>
-        <li className="linkItem">
-          <Link to={"/contact"}>Contact</Link>
-        </li>
-      </ul>
-      <div className="signLinks">
-        <button className="sign_in_Btn">Sign In</button>
-        <button className="register_Btn">Register</button>
+      <div className="holdLinksRegister">
+        <ul className="links">
+          <li className="linkItem">
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li className="linkItem">
+            <Link to={"/about"}>About</Link>
+          </li>
+          <li className="linkItem">
+            <Link to={"/vehiclemodels"}>Vehicle Models</Link>
+          </li>
+          <li className="linkItem">
+            <Link to={"/testimonials"}>Testimonials</Link>
+          </li>
+          <li className="linkItem">
+            <Link to={"/team"}>Our Team</Link>
+          </li>
+          <li className="linkItem">
+            <Link to={"/contact"}>Contact</Link>
+          </li>
+        </ul>
+        <div className="signLinks">
+          <div className="sign_in_Btn">
+            <Link to={"/signin"}>Sign In</Link>
+          </div>
+          <div className="register_Btn">
+            <Link to={"/signup"}>Register</Link>
+          </div>
+        </div>
       </div>
 
       <button className="hamburger" onClick={handleHamburger}>

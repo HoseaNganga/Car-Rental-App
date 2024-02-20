@@ -90,7 +90,8 @@
     display: grid;
   }
 
-  .aboutPageBodyContainer h3 {
+  .aboutPageBodyContainer h3,
+  h4 {
     text-align: center;
   }
 }

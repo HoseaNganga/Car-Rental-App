@@ -1,0 +1,66 @@
+.signupBody {
+  padding: 1rem;
+
+  display: grid;
+  place-content: center;
+  margin-bottom: 10rem;
+}
+
+.holdGrid {
+  max-width: 600px;
+  min-height: 400px;
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--BACKGROUNDCOLOR);
+  padding: 1rem;
+}
+
+.signForm {
+  display: grid;
+  gap: 2rem;
+}
+
+.signForm div {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.signForm input {
+  padding: 1rem;
+  font-size: 1.1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.signUpPageBtn {
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: var(--BACKGROUNDCOLOR);
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  margin-bottom: 3rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.signUpPageBtn:hover {
+  background-color: green;
+}
+
+.signInPageBtn {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  background-color: transparent;
+  color: var(--BUTTONBACKGROUNDCOLOR);
+  cursor: pointer;
+  margin-inline: 0.6rem;
+}
+
+.signInPageBtn a {
+  text-decoration: none;
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}

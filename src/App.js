@@ -5,6 +5,8 @@ import {
   TestimonialPage,
   TeamPage,
   ContactPage,
+  SignInPage,
+  RegisterPage,
 } from "./Pages/ImportPage";
 import { NavBar } from "./Components/HomePage/Import";
 import { Routes, Route } from "react-router-dom";
@@ -20,6 +22,8 @@ function App() {
         <Route path="/testimonials" element={<TestimonialPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/signin" element={<SignInPage />} />
+        <Route path="/signup" element={<RegisterPage />} />
       </Routes>
     </div>
   );

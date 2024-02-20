@@ -38,7 +38,11 @@
 @media screen and (max-width: 710px) {
   .flexIcons {
     display: grid;
-    justify-content: center;
+    place-content: center;
+  }
+
+  .flexIcons h4 {
+    text-align: center;
   }
 }
 @media screen and (max-width: 350px) {

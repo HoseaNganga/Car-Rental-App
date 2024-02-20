@@ -12,6 +12,8 @@
   display: grid;
   place-items: center;
   padding: 2rem;
+  line-height: 3rem;
+  font-size: 1rem;
 }
 .styleInnerDiv {
   box-shadow: 0px 5px 5px black;
@@ -29,10 +31,15 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  padding: 1rem;
+}
+.flexInnerDiv h2 {
+  text-align: center;
 }
 
 .flexInnerDiv p {
   margin: 0;
+  text-align: center;
 }
 
 .flexInnerDiv button {
@@ -46,6 +53,7 @@
 }
 .innerDivBody {
   margin-bottom: 1rem;
+  padding: 0.5rem;
 }
 
 .flexOverlay {
@@ -78,6 +86,7 @@
   font-size: 1.1rem;
   color: var(--BACKGROUNDCOLOR);
   transition: 0.3s ease-in-out;
+  margin-bottom: 3rem;
 }
 .overlayForm button:hover {
   background-color: var(--PRIMARYCOLOR);

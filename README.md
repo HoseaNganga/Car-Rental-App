@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<div align='center'><img style="width:30%" src='https://user-images.githubusercontent.com/105128267/218077760-5694a4ac-4e37-4de7-b31f-268ccd27400a.png'/></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website Project
 
-## Available Scripts
+This project is a web application for [Company Name]. It includes various pages such as the main page, about page, vehicle models page, testimonial page, team page, contact page, sign-in page, and register page.
 
-In the project directory, you can run:
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<h3 align='center'>Home Page 🏡</h3>
 
-### `npm start`
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/HomepageScreenshot.png'/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
+<br><br>
+<h3 align='center'>About Page 👇</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/AboutPageScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>VehicleModels Page 👇</h3>
 
-### `npm test`
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/VehicleModelScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Testimonials Page 👇</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/TestimonialScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Team Page 👇</h3>
 
-### `npm run build`
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/Team Screenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Contact Page 👇</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/Contact Screenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Pricing Page 👇</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/PricingScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Register Page 👇</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align='center'>
+<img src='./src/ImageAssests/GithubScreenshots/Login screenshot.png'/>
+</div>
+<br>
+<br>
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project is structured as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Pages**: Contains different pages of the website. Each page is a React component responsible for rendering specific content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - `MainPage`: Renders the main content of the website.
+  - `About`: Renders information about the company.
+  - `VehicleModels`: Renders information about different vehicle models offered.
+  - `TestimonialPage`: Renders testimonials from customers.
+  - `TeamPage`: Renders information about the company's team.
+  - `ContactPage`: Renders contact information for the company.
+  - `SignInPage`: Renders a sign-in form for users.
+  - `RegisterPage`: Renders a registration form for new users.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Components**: Contains reusable components used throughout the application. In this case, it includes a `NavBar` component located at `./Components/HomePage/Import.js`.
 
-## Learn More
+## Routing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application uses `react-router-dom` for routing. Different routes are defined for each page, and corresponding components are rendered based on the URL.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To run the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React: A JavaScript library for building user interfaces.
+- react-router-dom: DOM bindings for React Router, used for routing in the application.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
